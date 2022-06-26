@@ -1,0 +1,6 @@
+server:
+    port: 8086
+spring:
+    data:
+        mongodb:
+            url: localhost:27017/banca
