@@ -4,3 +4,16 @@ spring:
     data:
         mongodb:
             url: localhost:27017/banca
+    cloud:
+        discovery:
+            enabled: true
+eureka:
+  instance:
+     hostname: localhost
+     #hostname: eureka-service-contenedor
+     prefer-ip-address: true
+  client:
+     fetch-registry: true
+     register-with-eureka: true
+     service-url:
+        defaultZone: http://${eureka.instance.hostname}:8087/eureka/
