@@ -3,8 +3,7 @@ server:
 spring:
     data:
         mongodb:
-            host: host.docker.internal
-            port: 27017
+            uri: mongodb:://fyauriba:fyauriba@cluster0.lds0o.mongodb.net/banca-consumer?retryWrites=true&w=majority
     cloud:
         discovery:
             enabled: true
