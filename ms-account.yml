@@ -17,7 +17,8 @@ spring:
                     lower-case-service-id: true
 eureka:
   instance:
-     hostname: ms-eureka
+     hostname: localhost
+     #hostname: ms-eureka
      #hostname: eureka-service-contenedor
      prefer-ip-address: true
   client:
