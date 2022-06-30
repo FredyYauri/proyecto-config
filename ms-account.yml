@@ -3,7 +3,8 @@ server:
 spring:
     data:
         mongodb:
-            uri: mongodb+srv://fyauriba:fyauriba@cluster0.lds0o.mongodb.net/banca-account?retryWrites=true&w=majority
+            #uri: mongodb+srv://fyauriba:fyauriba@cluster0.lds0o.mongodb.net/banca-account?retryWrites=true&w=majority
+            uri: mongodb://fyauriba:fyauriba@cluster0.lds0o.mongodb.net/banca-account?retryWrites=true&w=majority
     cloud:
         discovery:
             enabled: true
