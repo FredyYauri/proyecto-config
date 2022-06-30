@@ -3,7 +3,7 @@ server:
 spring:
     data:
         mongodb:
-            host: mymongodb
+            host: mongo:latest
             port: 27017
             authentication-database: admin
             database: banca-customer
