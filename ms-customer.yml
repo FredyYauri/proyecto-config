@@ -3,7 +3,7 @@ server:
 spring:
     data:
         mongodb:
-            uri: mongodb+srv://fyauriba:fyauriba@cluster0.alkipm8.mongodb.net/banca-credit?retryWrites=true&w=majority
+            uri: mongodb+srv://fyauriba:fyauriba@cluster0.alkipm8.mongodb.net/banca-customer?retryWrites=true&w=majority
     cloud:
         discovery:
             enabled: true
