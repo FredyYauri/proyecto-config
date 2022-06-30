@@ -3,12 +3,7 @@ server:
 spring:
     data:
         mongodb:
-            host: mongo:latest
-            port: 27017
-            authentication-database: admin
-            database: banca-customer
-            repository:
-                enable: true
+            uri: mongodb+srv://fyauriba:fyauriba@cluster0.alkipm8.mongodb.net/banca-credit?retryWrites=true&w=majority
     cloud:
         discovery:
             enabled: true
