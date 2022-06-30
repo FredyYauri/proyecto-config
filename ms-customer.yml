@@ -5,6 +5,8 @@ spring:
         mongodb:
             host: mymongodb
             port: 27017
+            authentication-database: admin
+            database: banca-customer
     cloud:
         discovery:
             enabled: true
