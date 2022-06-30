@@ -2,7 +2,8 @@ server:
     port: 8087
 eureka:
   instance:
-     hostname: ms-eureka
+     hostname: localhost
+     #hostname: ms-eureka
      #hostname: eureka-service-contenedor
      prefer-ip-address: true
   client:
