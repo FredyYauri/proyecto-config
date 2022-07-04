@@ -3,10 +3,10 @@ server:
 spring:
     data:
         mongodb:
-            #uri: mongodb+srv://fyauriba:fyauriba@cluster0.lds0o.mongodb.net/banca-account?retryWrites=true&w=majority
+            uri: mongodb+srv://fyauriba:fyauriba@cluster0.lds0o.mongodb.net/banca-account?retryWrites=true&w=majority
             #uri: mongodb://localhost:27018/banca-account
-            host: mongo
-            port: 27017
+            #host: mongo
+            #port: 27017
     cloud:
         discovery:
             enabled: true
