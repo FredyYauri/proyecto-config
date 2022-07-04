@@ -5,7 +5,7 @@ spring:
         mongodb:
             #uri: mongodb+srv://fyauriba:fyauriba@cluster0.lds0o.mongodb.net/banca-account?retryWrites=true&w=majority
             #uri: mongodb://localhost:27018/banca-account
-            host: host.docker.internal
+            host: mongo
             port: 27017
     cloud:
         discovery:
