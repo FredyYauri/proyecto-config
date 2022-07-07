@@ -24,3 +24,6 @@ eureka:
      register-with-eureka: true
      service-url:
         defaultZone: http://${eureka.instance.hostname}:8087/eureka/
+msaccount:
+    url: "http://localhost:8083"
+    method: "/bankaccount/bycustomer/"
