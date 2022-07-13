@@ -1,9 +1,9 @@
 server:
-    port: 8091
+    port: 8081
 spring:
     data:
         mongodb:
-            uri: mongodb+srv://fyauriba:fyauriba@cluster0.alkipm8.mongodb.net/banca-bootcointransaction?retryWrites=true&w=majority
+            uri: mongodb+srv://fyauriba:fyauriba@cluster0.alkipm8.mongodb.net/banca-bootcoin?retryWrites=true&w=majority
             #uri: mongo
     cloud:
         discovery:
