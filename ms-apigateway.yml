@@ -43,3 +43,11 @@ spring:
             uri: lb://ms-statusaccount
             predicates:
               - Path=/statusaccount/**
+          - id: ms-bootcoin
+            uri: lb://ms-bootcoin
+            predicates:
+              - Path=/bootcoin/**
+          - id: ms-bootcointransaction
+            uri: lb://ms-bootcointransaction
+            predicates:
+              - Path=/transaction/**
