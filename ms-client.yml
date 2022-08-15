@@ -1,0 +1,15 @@
+server:
+	port: 9001
+spring:
+	application:
+		name: ms-client
+	datasource:
+		driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+		url: jdbc:sqlserver://NITRO-FREDY;databaseName=BD_VENTAS_BACKEND;encrypt=true;trustServerCertificate=true;
+		username: sa
+		password: sasa
+	jpa:
+		show-sql: true
+		hibernate:
+			dialect: org.hibernate.dialect.SQLServerDialect
+			ddl-auto: none
